@@ -3,7 +3,7 @@ on: push
 jobs:
   my-firt-job:
     runs-on: ubuntu-latest
-     steps:
+    steps:
        - name: print-hello-world
          run: echo "Hello World"
        - name: run-sleep
