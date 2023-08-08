@@ -1,10 +1,10 @@
-name: hello-world 
-on: push 
+name: hello-world
+on: push
 jobs:
-  my-firt-job:
+  my-first-job:
     runs-on: ubuntu-latest
     steps:
-       - name: print-hello-world
-         run: echo "Hello World"
-       - name: run-sleep
-         run: sleep 30
+      - name: print-hello-world
+        run: echo "Hello World"
+      - name: run-sleep
+        run: sleep 30
